@@ -1,0 +1,13 @@
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details div {
+    padding-left: 25px;
+}
+
+details span {
+    font-family: monospace;
+    font-weight: bold;
+}

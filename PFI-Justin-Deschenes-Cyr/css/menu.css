@@ -1,0 +1,45 @@
+.headerMenu {
+    display: grid;
+    grid-template-columns: 4vw auto;
+    align-items: center;
+}
+
+.menuItem {
+    display: inline;
+    font-size: 3vw;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: black;
+    padding: 3px 6px;
+}
+
+.menuItem:hover {
+    background: black;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.active {
+    color: dodgerblue !important;
+}
+
+.siteIcon {
+    background-image: url('../images/faviconBig.png');
+    background-size: cover;
+    width: 3.75vw;
+    height: 3.75vw;
+}
+
+@media (min-width:1100px) {
+    .menuItem {
+        font-size: 33px;
+    }
+
+    .siteIcon {
+        width: 40px;
+        height: 40px;
+    }
+}
